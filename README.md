@@ -8,7 +8,7 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 - [Usage](#usage)
 - [Technologies](#technologies)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#licence)
 
 ## Installation
 
@@ -16,8 +16,8 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 
 2. Create a directory for the project, if it has not been done already
 
- cd ~               # make sure you're in your home directory <br>
- mkdir projects     # create a folder called projects <br>
+ cd ~               # make sure you're in your home directory <br><br>
+ mkdir projects     # create a folder called projects <br><br>
  cd projects        # change directory into the new projects folder
 
 3. Clone the repository
