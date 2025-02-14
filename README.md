@@ -22,7 +22,7 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 3. Clone the repository
 
 - if you are using HTTPS: git clone https://github.com/username/hm07-qa-us.git
-- if you are using SSH: git clone (git@github.com:username/hm07-qa-us.git)
+- if you are using SSH: git clone git@github.com:username/hm07-qa-us.git
 
 4. Work with the project locally
 
@@ -43,13 +43,9 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 
 This project leverages a variety of technologies and methodologies to achieve its goals:
 
-Back-End
-
-- **Node.js**: A JavaScript runtime for building fast and scalable server-side applications. <br>
-  Testing
-- **Jest**: A JavaScript testing framework for unit and integration tests. <br>
-  Methodologies
-- **Agile**: An iterative and incremental approach to project management and software development.
+- **Node.js**: A JavaScript runtime for building fast and scalable server-side applications
+- **Jest**: A JavaScript testing framework for unit and integration tests
+- **Agile**: An iterative and incremental approach to project management and software development
 
 ## Licence
 
