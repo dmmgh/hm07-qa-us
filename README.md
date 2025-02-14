@@ -1,12 +1,12 @@
 # Sprint 7 project
 
-The project is dedicated constructing automate tests for GET, POST, PUT and DELETE requests using Javascript testing framework Jest
+The project is dedicated to constructing automated tests for GET, POST, PUT and DELETE requests using the Javascript testing framework Jest
 
 ## Table of contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Technologies] (#technologies)
+- [Technologies](#technologies)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -16,8 +16,8 @@ The project is dedicated constructing automate tests for GET, POST, PUT and DELE
 
 2. Create a directory for the project, if it has not been done already
 
- cd ~               # make sure you're in your home directory \n
- mkdir projects     # create a folder called projects \n
+ cd ~               # make sure you're in your home directory <br>
+ mkdir projects     # create a folder called projects <br>
  cd projects        # change directory into the new projects folder
 
 3. Clone the repository
