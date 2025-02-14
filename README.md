@@ -7,7 +7,6 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
 - [License](#licence)
 
 ## Installation
@@ -21,13 +20,13 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
  cd projects        # change directory into the new projects folder
 <br><br>
 3. Clone the repository
-
+<br><br>
  if you are using HTTPS:
  git clone https://github.com/username/hm07-qa-us.git
- 
+ <br><br>
  if you are using SSH:
  git clone git@github.com:username/hm07-qa-us.git
-
+ <br><br>
 4. Work with the project locally
 
 - run npm install 
@@ -53,8 +52,6 @@ This project leverages a variety of technologies and methodologies to achieve it
 - **Jest**: A JavaScript testing framework for unit and integration tests.
 ### Methodologies
 - **Agile**: An iterative and incremental approach to project management and software development.
-
-## Contributing
 
 ## Licence
 
