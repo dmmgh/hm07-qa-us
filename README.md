@@ -15,11 +15,11 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 1. Open your preferred terminal emulator. If you’re on Windows, use Git Bash
 
 2. Create a directory for the project, if it has not been done already
-
+<br><br>
  cd ~               # make sure you're in your home directory <br><br>
  mkdir projects     # create a folder called projects <br><br>
  cd projects        # change directory into the new projects folder
-
+<br><br>
 3. Clone the repository
 
  # if you are using HTTPS
