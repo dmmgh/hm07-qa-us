@@ -17,7 +17,7 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 
 - cd ~ # make sure you're in your home directory
 - mkdir projects # create a folder called projects
-- cd projects # change directory into the new projects folder
+- cd projects # change directory into the new projects folder 
 
 3. Clone the repository
 
