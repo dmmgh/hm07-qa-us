@@ -6,7 +6,7 @@ The project is dedicated constructing automate tests for GET, POST, PUT and DELE
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Technologies] (#Technologies)
+- [Technologies] (#technologies)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -16,8 +16,8 @@ The project is dedicated constructing automate tests for GET, POST, PUT and DELE
 
 2. Create a directory for the project, if it has not been done already
 
- cd ~               # make sure you're in your home directory
- mkdir projects     # create a folder called projects
+ cd ~               # make sure you're in your home directory \n
+ mkdir projects     # create a folder called projects \n
  cd projects        # change directory into the new projects folder
 
 3. Clone the repository
