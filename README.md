@@ -14,19 +14,13 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 1. Open your preferred terminal emulator. If you’re on Windows, use Git Bash
 
 2. Create a directory for the project, if it has not been done already:
-<br><br>
- cd ~               # make sure you're in your home directory <br><br>
- mkdir projects     # create a folder called projects <br><br>
- cd projects        # change directory into the new projects folder
-<br><br>
+- cd ~               # make sure you're in your home directory
+- mkdir projects     # create a folder called projects
+- cd projects        # change directory into the new projects folder
 3. Clone the repository
-<br><br>
- if you are using HTTPS:
- git clone https://github.com/username/hm07-qa-us.git
- <br><br>
- if you are using SSH:
- git clone git@github.com:username/hm07-qa-us.git
- <br><br>
+- if you are using HTTPS: git clone https://github.com/username/hm07-qa-us.git
+- if you are using SSH: git clone git@github.com:username/hm07-qa-us.git
+
 4. Work with the project locally
 
 - run npm install 
@@ -46,11 +40,11 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 
 This project leverages a variety of technologies and methodologies to achieve its goals:
 
-### Back-End
+Back-End
 - **Node.js**: A JavaScript runtime for building fast and scalable server-side applications.
-### Testing
+Testing
 - **Jest**: A JavaScript testing framework for unit and integration tests.
-### Methodologies
+Methodologies
 - **Agile**: An iterative and incremental approach to project management and software development.
 
 ## Licence
