@@ -31,6 +31,6 @@ test('status should be 200 and there are 4 warehouses in the respond for endpoin
 
 	// check response status
 	expect(actualStatus).toBe(200);
-	// check if in the recieved data there are all the existing couriers (4, "Couriers - Get a list of deliveries" section in apiDoc)
+	// check if in the recieved data there are data for all the existing couriers (4, "Couriers - Get a list of deliveries" section in apiDoc)
     expect(data.length).toBe(4);
 });
