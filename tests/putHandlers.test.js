@@ -5,9 +5,10 @@ const requestBody = {
 	"price": 175
 }
 
-test('status should be 200 for an existing product id and 404 for a non-existing product for request to endpoint /api/v1/products',	async () => {
+test('status should be 200 for an existing product id and 404 for a non-existing product for request to the endpoint /api/v1/products',	async () => {
 
 	let actualStatus;
+	
 	// create a variable to store a recieved data of the response
 	let data;
 
@@ -23,12 +24,8 @@ test('status should be 200 for an existing product id and 404 for a non-existing
 		// extract response code status
 		actualStatus = response.status;
 
-		// The second task
 		// extract data from request
 		data = await response.json();
-
-		// the next line of code are used to handle the actual response data for the given PUT request.
-		console.log(data);
 
 	} catch (error) {
 		console.error(error);
@@ -45,5 +42,5 @@ test('status should be 200 for an existing product id and 404 for a non-existing
 	expect(actualStatus).toBe(404);
 	// check response object properties
 	expect(data.code).toBe(404);
-	expect(data.message).toBe('Not Found'); // It's an actual data, in /docs/ the message is 'Not found'.
+	expect(data.message).toBe('Not Found'); // It's an actual property value, in /docs/ the message is 'Not found'.
 });

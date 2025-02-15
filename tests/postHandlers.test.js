@@ -2,20 +2,18 @@
 const config = require('../config');
 
 const requestBody = {
-    // put your body here
+    //// put your body here
 	"deliveryTime": 9,
     "productsCount": 10,
     "productsWeight": 11
 }
 
-test('status should be 200 and there is an object in the respond with valid data for endpoint /order-and-go/v1/delivery', async () => {
+test('status should be 200 and there is an object in the response with expected data for the endpoint /order-and-go/v1/delivery', async () => {
 
 	let actualStatus;
 
 	// create a variable to store a recieved data of the response
 	let data;
-
-
 
     try {
 		const response = await fetch(`${config.API_URL}${config.API_ENDPOINT_FOR_POST}`, {
@@ -29,18 +27,8 @@ test('status should be 200 and there is an object in the respond with valid data
 		// extract response code status
 		actualStatus = response.status;
 
-		// extract data from request
+		// extract data from the response
 		data = await response.json();
-
-		// the next 7 lines of code are used to handle the actual data. The data
-		// doesn't match what's documented in /docs/ The actual data is used in the following tests
-		console.log(data);
-		console.log(`name: ${data.name}`);
-		console.log(`clientDeliveryCost: ${data.clientDeliveryCost}`);
-		console.log(`toBeDeliveredTime min: ${data.toBeDeliveredTime.min}`);
-		console.log(`toBeDeliveredTime max: ${data.toBeDeliveredTime.max}`);
-		console.log(`hostDeliveryCost: ${data.hostDeliveryCost}`);
-		console.log(`isItPossibleToDeliver: ${data.isItPossibleToDeliver}`);
 
 	} catch (error) {
 		console.error(error);
