@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-undef
 const config = require('../config');
 
-test('status should be 200 and response json consist of the property "ok", set up to "true", for request to endpoint /api/v1/kits', async () => {
+test('status should be 200 and response json consist of the property "ok", set up to "true", for DELETE request to endpoint /api/v1/kits', async () => {
     
 	let response;
 	let actualStatus;

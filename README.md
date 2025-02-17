@@ -36,7 +36,7 @@ The project is dedicated to constructing automated tests for GET, POST, PUT and 
 - for each type of the request (GET, POST, PUT and DELETE) exists single test file in the folder /test
 - the server address and endpoints are set up in config.js file with appropriate variable names, which are then used in the test files
 - the tests are run using the command npx jest
-- some working tests are commented out, because for the same endpoint there are requests that are slightly different and cannot be run simultaneously, as for putHandlers.test.js there are two requests for existing and non-existing product id. To run a different test comment out the current test and uncomment the appropriate code lines
+- some working tests are commented out, because for the same endpoint there are requests that are slightly different and cannot be run simultaneously, as for putHandlers.test.js there are two requests for existing and non-existing product id. To run a different test comment out the current test and uncomment the appropriate code lines (also in config.js)
 
 ## Technologies
 
