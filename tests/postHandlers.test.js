@@ -8,7 +8,7 @@ const requestBody = {
     "productsWeight": 11
 }
 
-test('status should be 200 for post  request for the endpoint /order-and-go/v1/delivery', async () => {
+test('status should be 200 for post request for the endpoint /order-and-go/v1/delivery', async () => {
 
 	let actualStatus;
 

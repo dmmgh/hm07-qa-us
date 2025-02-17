@@ -21,7 +21,7 @@ test('status should be 200 for GET request for the endpoint /api/v1/warehouses',
 
 });
 
-test('there are 4 warehouses in the response for GET request  for the endpoint /api/v1/warehouses', async () => {
+test('there are 4 warehouses in the response for GET request for the endpoint /api/v1/warehouses', async () => {
 
 	// create a variable to store a recieved data of the response
 	let data;
