@@ -34,7 +34,7 @@ test('status should be 200 for an existing product id and 404 for a non-existing
 	expect(actualStatus).toBe(404);
 });
 
-test('parsing the response of PUT request for an existing/non-existing product id to the endpoint /api/v1/products',	async () => {
+test('parsing the response of PUT request for an  existing/non-existing product id to the endpoint /api/v1/products',	async () => {
 
 	// create a variable to store a recieved data of the response
 	let data;
